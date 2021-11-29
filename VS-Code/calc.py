@@ -26,22 +26,22 @@ while choice!=6:
         num1 = int(input())
         num2 = int(input())
         
-    if n ==1:
+    if choice ==1:
         print(num1 + num2)
     
-    if n == 2:
+    if choice == 2:
         print(num1 - num2)
 
-    if n == 3:
+    if choice == 3:
         print(num1 * num2)
 
-    if n == 4:  
+    if choice == 4:  
         print(num1 // num2)
 
-    if n == 5:
+    if choice == 5:
         print(num1 % num2)
     
-    elif 1 > n or n > 6:
+    elif 1 > choice or choice > 6:
         print("Invalid Operation")
      
     choice = int(input()) # this is the most imp part of the question
