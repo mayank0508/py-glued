@@ -7,5 +7,6 @@ W = int(input())
 
 while(E >= S):
     C = (S-32) * 5/9
-    print(S, "\t", C)
+    M = int(C)
+    print(S,"\t",M)
     S = S + W
