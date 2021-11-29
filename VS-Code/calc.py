@@ -20,12 +20,9 @@
 #     print("Invalid Operation")
     
     
-n = int(input())
-
-while n!=6:
-
-
-    if n<=5 and n>=1:
+choice = int(input())
+while choice!=6:
+    if choice<=5 and choice>=1:
         num1 = int(input())
         num2 = int(input())
         
@@ -47,4 +44,4 @@ while n!=6:
     elif 1 > n or n > 6:
         print("Invalid Operation")
      
-    n = int(input())
+    choice = int(input()) # this is the most imp part of the question
