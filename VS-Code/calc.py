@@ -41,7 +41,7 @@ while choice!=6:
     if choice == 5:
         print(num1 % num2)
     
-    elif 1 > choice or choice > 6:
+    if choice >= 7:
         print("Invalid Operation")
      
     choice = int(input()) # this is the most imp part of the question
