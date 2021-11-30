@@ -3,10 +3,10 @@
 
 S = int(input())
 E = int(input())
-W = int(input())
+w = int(input())
 
 while(E >= S):
     C = (S-32) * 5/9
     M = int(C)
     print(S,"\t",M)
-    S = S + W
+    S = S + w
