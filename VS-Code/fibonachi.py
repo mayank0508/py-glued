@@ -1,6 +1,10 @@
-def F(num):
-    print(F = F(num-1) + F(num-2))
+def F(n):
+    if(n == 1):
+        return 1
+    elif(n == 2):
+        return 1
+    else:
+        return F(n-1) + F(n-2)
 
-num = int(input())
-F(1) and F(2) == 1
-print(F(num))
+n = int(input())
+print(F(n))
