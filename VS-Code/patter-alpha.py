@@ -165,14 +165,75 @@
 
 ###############################
 
-n = int(input())
-i = 1
+# n = int(input())
+# i = 1
+# while(i<=n):
+#     j = 1
+#     start_char = chr(ord('A') + n)
+#     while(j<=i):
+#         CharP = chr(ord(start_char) + j - 1)
+#         print(CharP, end='')
+#         j = j + 1
+#     print()
+#     i = i + 1
+
+###############################
+
+# n = int(input())
+# i = 1
+# while(i<=n):
+#     j = 1
+#     ch_r = ord('A') + n - i
+#     while(j<=i):
+#         print(chr(ch_r + j -1), end='')
+#         j = j + 1
+#     print()
+#     i = i + 1
+
+    # E
+    # DE
+    # CDE
+    # BCDE
+    # ABCDE
+
+#############################################################################
+
+# n = int(input())
+# i = 1
+# print(1)
+# while i <= n-1:
+#     j = 1
+#     count = 0    
+#     while j <= i:
+#         if(i == j or j == 0):
+#             print(i, end='')
+#         else:
+#             print(0, end='')
+#         j = j + 1
+#     print()
+#     i = i + 1
+
+#############################################################################
+
+n= int(input())
+i=1
+if (n == 0):
+    print('1')
 while(i<=n):
-    j = 1
-    start_char = chr(ord('A') + i - 1)
+    j=1
     while(j<=i):
-        CharP = chr(ord(start_char) + j - 1)
-        print(CharP, end='')
-        j = j + 1
+        if (i == 1):
+            k = 1
+        elif (j==1 or j==i):
+            k= i-1
+        else:
+            k=0
+        print(k, end="")
+        j=j+1
     print()
-    i = i + 1
+    i=i+1
+
+# 1
+# 11
+# 202
+# 3003
