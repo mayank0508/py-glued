@@ -170,3 +170,37 @@
 #    *
 
 ################################################################
+
+n = int(input())
+i = 1
+while i <= n:
+    j = 1
+    while j <= i:
+        print(j, end='')
+        j += 1
+    space = 1
+    while space <= 2*n-2*i:
+        print(" ", end='')
+        space += 1
+    p = i
+    while p >= 1:
+        print(p, end='')
+        p -= 1    
+    print()
+    i += 1
+
+################################################################
+
+# n = int(input())
+# i = 1
+# while i <= n:
+#     space = 1
+#     while space <= n-i:
+#         print(" ", end='')
+#         space += 1
+#     j = 1
+#     while j <= i:
+#         print(j, end='')
+#         j += 1
+#     print()
+#     i += 1
