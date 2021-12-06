@@ -32,22 +32,73 @@
 
 ##############################################################
 
-n = int(input())
-i = 1
-while(i<=n):
-    space = 1
-    while(space<= n-i):
-        print(' ', end ="")
-        space = space + 1
-    star = 1
-    while(star <= i):
-        print('*', end='')
-        star = star + 1
-    print()
-    i = i + 1
+# n = int(input())
+# i = 1
+# while(i<=n):
+#     space = 1
+#     while(space<= n-i):
+#         print(' ', end ="")
+#         space = space + 1
+#     star = 1
+#     while(star <= i):
+#         print('*', end='')
+#         star = star + 1
+#     print()
+#     i = i + 1
 
     #     *
     #    **
     #   ***
     #  ****
     # *****
+
+################################################################3
+
+# n = int(input())
+# i = 1
+# while(i<=n):
+#     space = 1
+#     while(space<= n-i):
+#         print(' ', end ="")
+#         space = space + 1
+#     star = 1
+#     while(star <= i):
+#         print(star,end ='')
+#         star = star + 1
+#     print()
+#     i = i + 1
+
+#     1
+#    12
+#   123
+#  1234
+
+########################################################################
+
+# n = int(input())
+# i = 1
+# while(i<=n):
+#     space = 1
+#     while(space<=n-i):
+#         print(' ', end="")
+#         space += 1
+#     j = 1
+#     p = 1
+#     #increasing sequence
+#     while(j <= i):
+#         print(p, end="")
+#         p += 1
+#         j += 1
+#     #increasing sequence
+#     p = i-1
+#     while(p>=1):
+#         print(p, end='')
+#         p -= 1
+#     print()
+#     i += 1
+
+#   1
+#  121
+# 12321 
+
+########################################################################
