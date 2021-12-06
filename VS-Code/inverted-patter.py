@@ -132,3 +132,41 @@
 # 4567654
 
 ########################################################################
+
+# n = int(input())
+# i = 1
+# while(i<=n):
+#     space = 1
+#     while(space<=n-i):
+#         print(' ', end="")
+#         space += 1
+#     #decreasing sequence
+#     p = i-1
+#     while(p>=1):
+#         print(p, end='')
+#         p -= 1
+#     #increasing sequence
+#     j = 1
+#     p = 1
+#     while(j <= i):
+#         print(p, end="")
+#         p += 1
+#         j += 1
+#     print()
+#     i += 1
+
+################################################################
+# h = int(input("please enter diamond's height:"))
+
+# for i in range(1, h, 2):
+#     print(" "*(h//2-i//2), "*"*i)
+# for i in range(h, 0, -2):
+#     print(" "*(h//2-i//2), "*"*i)
+
+#    *
+#   ***
+#  *****
+#   ***
+#    *
+
+################################################################
