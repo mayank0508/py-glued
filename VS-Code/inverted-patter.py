@@ -171,23 +171,23 @@
 
 ################################################################
 
-n = int(input())
-i = 1
-while i <= n:
-    j = 1
-    while j <= i:
-        print(j, end='')
-        j += 1
-    space = 1
-    while space <= 2*n-2*i:
-        print(" ", end='')
-        space += 1
-    p = i
-    while p >= 1:
-        print(p, end='')
-        p -= 1    
-    print()
-    i += 1
+# n = int(input())
+# i = 1
+# while i <= n:
+#     j = 1
+#     while j <= i:
+#         print(j, end='')
+#         j += 1
+#     space = 1
+#     while space <= 2*n-2*i:
+#         print(" ", end='')
+#         space += 1
+#     p = i
+#     while p >= 1:
+#         print(p, end='')
+#         p -= 1    
+#     print()
+#     i += 1
 
 ################################################################
 
@@ -204,3 +204,54 @@ while i <= n:
 #         j += 1
 #     print()
 #     i += 1
+
+################################################################
+
+# n = int(input())
+# i = 1
+# while(i<=n):
+#     space = 1
+#     while(space<=n-i):
+#         print(' ', end="")
+#         space += 1
+#     #decreasing sequence
+#     p = i
+#     while(p>1):
+#         print(p, end='')
+#         p -= 1
+#     j = 1
+#     #increasing sequence
+#     while(j <= i):
+#         print(j, end="")
+#         j += 1
+#     print()
+#     i += 1
+
+#    1
+#   212
+#  32123
+# 4321234
+
+################################################################
+# num = int(input())
+# for i in range(1,num+1):
+#     if i <= round(num/2):
+#         for j in range(1,i):
+#             print(" ",end="")
+#         for j in range(0,i):
+#             print("*",end="")
+#     else:
+#         for j in range(1,num-i+1):
+#             print(" ",end="")
+#         for j in range(0,num-i+1):
+#             print("*",end="")
+#     print()
+
+# *
+#  **
+#   ***
+#  **
+# *
+
+################################################################
+
