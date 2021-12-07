@@ -276,7 +276,6 @@
 #     i += 1
 
 ################################################################
-
 n = int(input())
 i = 1
 start = 1
@@ -288,7 +287,7 @@ while i<= n:
         if j == start or j == mid or j == end:
             print("*",end="")
         else:
-        	print(0,end="")
+            print(0,end="")
         j += 1
     start = start + 1
     end = end - 1
