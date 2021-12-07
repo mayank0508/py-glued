@@ -283,15 +283,13 @@ start = 1
 mid = n+1
 end = 2*n+1
 while i<= n:
-    
     j = 1
     while j <= 2*n+1:
         if j == start or j == mid or j == end:
             print("*",end="")
         else:
         	print(0,end="")
-        j = j + 1
-    
+        j += 1
     start = start + 1
     end = end - 1
     i = i+1
