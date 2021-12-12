@@ -18,11 +18,36 @@
 
 ################################################################
 
-n = int(input())
+# n = int(input())
 
-for i in range(1, n+1, 1):
-    for s in range(i-1): # this is the code for printing space
-        print(" ", end='')
-    for j in range(i,n+1, 1):
-        print(j, end='')
-    print()
+
+# for i in range(1, n+1):
+#     count = 1
+#     for s in range(1,i): # this is the code for printing space
+#         print(" ", end='')
+#         count += 1
+#     num = i
+#     for j in range(count,n+1):
+#         print(num, end='')
+#         num += 1
+#     print()
+# for i in range(n-1, 0, -1):
+#     count = 1
+#     for s in range(1,i): # this is the code for printing space
+#         print(" ", end='')
+#         count += 1
+#     num = i
+#     for j in range(count,n+1):
+#         print(num, end='')
+#         num += 1
+#     print()
+
+# 1234
+#  234
+#   34
+#    4
+#   34
+#  234
+# 1234    
+
+################################################################################
