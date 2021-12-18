@@ -160,3 +160,43 @@ def armstrong(n):
          
 n = int(input())
 armstrong(n)
+
+#################################################
+
+# def checkPalindrome(num):
+#     rev = 0
+#     while(num != 0):
+#         curr_rev = num%10
+#         num = num//10
+#         rev = rev*10 + curr_rev
+        
+#     rev = num
+#     if(rev):
+#         print('true')
+#     else:
+#         print('false')
+#     pass
+		
+# num = int(input())
+# checkPalindrome(num)
+
+def checkPalindrome(num):
+    temp = num
+    rev = 0
+    
+    while temp != 0:
+        rev = (rev*10) + (temp % 10)
+        temp = temp // 10
+        
+    if num == rev :
+        return True
+    else:
+        return False
+    
+
+num = int(input())
+isPalindrome = checkPalindrome(num)
+if(isPalindrome):
+	print('true')
+else:
+	print('false')
