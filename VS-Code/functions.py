@@ -180,6 +180,9 @@ armstrong(n)
 # num = int(input())
 # checkPalindrome(num)
 
+
+
+
 def checkPalindrome(num):
     temp = num
     rev = 0
