@@ -5,7 +5,7 @@
 #     j = 1
 #     while j <= n:
 #         if j == end:
-#             print("*",end="")
+#             print("+",end="")
 #         else:
 #             print(n-j+1,end="")
 #         j += 1
